@@ -291,7 +291,7 @@ public class doctorhome extends javax.swing.JFrame {
     }//GEN-LAST:event_myprofileActionPerformed
 
     private void docschedule1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_docschedule1ActionPerformed
-        docappointment da= new docappointment();
+        docappointment da= new docappointment(u);
         da.setVisible(true);
     }//GEN-LAST:event_docschedule1ActionPerformed
 
