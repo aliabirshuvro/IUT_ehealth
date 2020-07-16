@@ -1,0 +1,1246 @@
+InnoDB: using atomic writes.
+2019-09-26 18:53:57 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-09-26 18:53:57 0 [Note] InnoDB: Uses event mutexes
+2019-09-26 18:53:57 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-09-26 18:53:57 0 [Note] InnoDB: Number of pools: 1
+2019-09-26 18:53:57 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-09-26 18:53:57 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-09-26 18:53:57 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-09-26 18:53:59 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-09-26 18:53:59 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-09-26 18:53:59 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-09-26 18:53:59 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-09-26 18:53:59 0 [Note] InnoDB: Waiting for purge to start
+2019-09-26 18:53:59 0 [Note] InnoDB: 10.4.6 started; log sequence number 294606; transaction id 138
+2019-09-26 18:53:59 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-09-26 18:53:59 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-09-26 18:53:59 0 [Note] Server socket created on IP: '::'.
+2019-09-26 18:53:59 0 [Note] Reading of all Master_info entries succeeded
+2019-09-26 18:53:59 0 [Note] Added new Master_info '' to hash table
+2019-09-26 18:53:59 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.6-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-09-26 18:54:00 0 [Note] InnoDB: Buffer pool(s) load completed at 190926 18:54:00
+2019-09-26 19:06:07 54 [Warning] Aborted connection 54 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+InnoDB: using atomic writes.
+2019-09-26 20:17:57 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-09-26 20:17:57 0 [Note] InnoDB: Uses event mutexes
+2019-09-26 20:17:57 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-09-26 20:17:57 0 [Note] InnoDB: Number of pools: 1
+2019-09-26 20:17:57 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-09-26 20:17:57 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-09-26 20:17:57 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-09-26 20:17:57 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300222
+2019-09-26 20:17:58 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-09-26 20:17:58 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-09-26 20:17:58 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-09-26 20:17:58 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-09-26 20:17:58 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-09-26 20:17:58 0 [Note] InnoDB: 10.4.6 started; log sequence number 300231; transaction id 165
+2019-09-26 20:17:58 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-09-26 20:17:58 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-09-26 20:17:58 0 [Note] Server socket created on IP: '::'.
+2019-09-26 20:17:59 0 [Note] Reading of all Master_info entries succeeded
+2019-09-26 20:17:59 0 [Note] Added new Master_info '' to hash table
+2019-09-26 20:17:59 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.6-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-09-26 20:17:59 0 [Note] InnoDB: Buffer pool(s) load completed at 190926 20:17:59
+2019-09-26 20:18:23 20 [Warning] Aborted connection 20 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 20:28:28 21 [Warning] Aborted connection 21 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 20:28:28 22 [Warning] Aborted connection 22 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 20:28:28 23 [Warning] Aborted connection 23 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 20:55:40 30 [Warning] Aborted connection 30 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 21:04:44 31 [Warning] Aborted connection 31 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 21:04:44 32 [Warning] Aborted connection 32 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 21:08:27 33 [Warning] Aborted connection 33 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+InnoDB: using atomic writes.
+2019-09-26 21:56:00 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-09-26 21:56:00 0 [Note] InnoDB: Uses event mutexes
+2019-09-26 21:56:00 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-09-26 21:56:00 0 [Note] InnoDB: Number of pools: 1
+2019-09-26 21:56:00 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-09-26 21:56:00 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-09-26 21:56:00 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-09-26 21:56:01 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300569
+2019-09-26 21:56:03 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-09-26 21:56:03 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-09-26 21:56:03 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-09-26 21:56:03 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-09-26 21:56:03 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-09-26 21:56:03 0 [Note] InnoDB: 10.4.6 started; log sequence number 300578; transaction id 176
+2019-09-26 21:56:03 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-09-26 21:56:03 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-09-26 21:56:03 0 [Note] Server socket created on IP: '::'.
+2019-09-26 21:56:03 0 [Note] Reading of all Master_info entries succeeded
+2019-09-26 21:56:03 0 [Note] Added new Master_info '' to hash table
+2019-09-26 21:56:03 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.6-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-09-26 21:56:04 0 [Note] InnoDB: Buffer pool(s) load completed at 190926 21:56:04
+2019-09-26 21:56:17 8 [Warning] Aborted connection 8 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 21:58:34 21 [Warning] Aborted connection 21 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:01:39 104 [Warning] Aborted connection 104 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:03:58 105 [Warning] Aborted connection 105 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:05:15 106 [Warning] Aborted connection 106 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:11:26 107 [Warning] Aborted connection 107 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:12:49 108 [Warning] Aborted connection 108 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:14:11 109 [Warning] Aborted connection 109 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:14:11 110 [Warning] Aborted connection 110 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:18:47 111 [Warning] Aborted connection 111 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:19:39 112 [Warning] Aborted connection 112 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:19:58 113 [Warning] Aborted connection 113 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:25:35 115 [Warning] Aborted connection 115 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:25:35 114 [Warning] Aborted connection 114 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:34:35 184 [Warning] Aborted connection 184 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:34:35 185 [Warning] Aborted connection 185 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:37:59 188 [Warning] Aborted connection 188 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:37:59 186 [Warning] Aborted connection 186 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:37:59 187 [Warning] Aborted connection 187 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:38:53 189 [Warning] Aborted connection 189 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:38:53 190 [Warning] Aborted connection 190 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:38:53 191 [Warning] Aborted connection 191 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:38:53 192 [Warning] Aborted connection 192 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 22:41:57 193 [Warning] Aborted connection 193 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 23:05:09 260 [Warning] Aborted connection 260 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 23:06:30 261 [Warning] Aborted connection 261 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 23:07:20 262 [Warning] Aborted connection 262 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 23:31:17 271 [Warning] Aborted connection 271 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-26 23:31:17 272 [Warning] Aborted connection 272 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+InnoDB: using atomic writes.
+2019-09-26 23:43:51 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-09-26 23:43:51 0 [Note] InnoDB: Uses event mutexes
+2019-09-26 23:43:51 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-09-26 23:43:51 0 [Note] InnoDB: Number of pools: 1
+2019-09-26 23:43:51 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-09-26 23:43:51 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-09-26 23:43:51 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-09-26 23:43:51 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=344158
+2019-09-26 23:43:52 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-09-26 23:43:52 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-09-26 23:43:52 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-09-26 23:43:52 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-09-26 23:43:52 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-09-26 23:43:52 0 [Note] InnoDB: Waiting for purge to start
+2019-09-26 23:43:52 0 [Note] InnoDB: 10.4.6 started; log sequence number 344167; transaction id 270
+2019-09-26 23:43:52 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-09-26 23:43:52 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-09-26 23:43:52 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2019-09-27 14:14:59 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-09-27 14:14:59 0 [Note] InnoDB: Uses event mutexes
+2019-09-27 14:14:59 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-09-27 14:14:59 0 [Note] InnoDB: Number of pools: 1
+2019-09-27 14:14:59 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-09-27 14:14:59 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-09-27 14:14:59 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-09-27 14:14:59 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=425311
+2019-09-27 14:15:01 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-09-27 14:15:01 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-09-27 14:15:01 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-09-27 14:15:01 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-09-27 14:15:01 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-09-27 14:15:01 0 [Note] InnoDB: Waiting for purge to start
+2019-09-27 14:15:01 0 [Note] InnoDB: 10.4.6 started; log sequence number 425320; transaction id 369
+2019-09-27 14:15:01 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-09-27 14:15:01 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-09-27 14:15:01 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2019-09-29  8:58:24 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-09-29  8:58:24 0 [Note] InnoDB: Uses event mutexes
+2019-09-29  8:58:24 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-09-29  8:58:24 0 [Note] InnoDB: Number of pools: 1
+2019-09-29  8:58:24 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-09-29  8:58:24 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-09-29  8:58:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-09-29  8:58:24 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=426029
+2019-09-29  8:58:25 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-09-29  8:58:25 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-09-29  8:58:25 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-09-29  8:58:25 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-09-29  8:58:25 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-09-29  8:58:25 0 [Note] InnoDB: Waiting for purge to start
+2019-09-29  8:58:25 0 [Note] InnoDB: 10.4.6 started; log sequence number 426038; transaction id 379
+2019-09-29  8:58:25 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-09-29  8:58:25 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-09-29  8:58:25 0 [Note] Server socket created on IP: '::'.
+2019-09-29  8:58:26 0 [Note] Reading of all Master_info entries succeeded
+2019-09-29  8:58:26 0 [Note] Added new Master_info '' to hash table
+2019-09-29  8:58:26 0 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.6-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-09-29  8:58:26 0 [Note] InnoDB: Buffer pool(s) load completed at 190929  8:58:26
+2019-09-29  9:04:49 8 [Warning] Aborted connection 8 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29  9:10:13 9 [Warning] Aborted connection 9 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29  9:10:39 10 [Warning] Aborted connection 10 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29  9:23:04 11 [Warning] Aborted connection 11 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29  9:32:25 14 [Warning] Aborted connection 14 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29  9:32:48 12 [Warning] Aborted connection 12 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29  9:32:48 13 [Warning] Aborted connection 13 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29  9:34:33 15 [Warning] Aborted connection 15 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29  9:34:33 16 [Warning] Aborted connection 16 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29  9:41:00 17 [Warning] Aborted connection 17 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:21:38 130 [Warning] Aborted connection 130 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:21:38 129 [Warning] Aborted connection 129 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:21:38 131 [Warning] Aborted connection 131 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:21:38 128 [Warning] Aborted connection 128 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:21:38 114 [Warning] Aborted connection 114 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:21:38 127 [Warning] Aborted connection 127 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:27:48 140 [Warning] Aborted connection 140 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:27:48 138 [Warning] Aborted connection 138 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:27:48 139 [Warning] Aborted connection 139 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:34:35 141 [Warning] Aborted connection 141 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:34:35 142 [Warning] Aborted connection 142 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:38:55 143 [Warning] Aborted connection 143 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:42:18 184 [Warning] Aborted connection 184 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:47:28 217 [Warning] Aborted connection 217 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:47:28 218 [Warning] Aborted connection 218 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:54:06 479 [Warning] Aborted connection 479 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:56:01 512 [Warning] Aborted connection 512 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-09-29 10:56:01 513 [Warning] Aborted connection 513 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+InnoDB: using atomic writes.
+2019-10-05 19:05:26 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-05 19:05:26 0 [Note] InnoDB: Uses event mutexes
+2019-10-05 19:05:26 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-05 19:05:26 0 [Note] InnoDB: Number of pools: 1
+2019-10-05 19:05:26 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-05 19:05:26 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-05 19:05:26 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-05 19:05:27 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=885935
+2019-10-05 19:05:29 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-05 19:05:29 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-05 19:05:29 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-05 19:05:29 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-05 19:05:29 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-05 19:05:29 0 [Note] InnoDB: Waiting for purge to start
+2019-10-05 19:05:29 0 [Note] InnoDB: 10.4.6 started; log sequence number 885944; transaction id 701
+2019-10-05 19:05:29 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-05 19:05:29 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-05 19:05:30 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2019-10-06 20:09:10 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-06 20:09:10 0 [Note] InnoDB: Uses event mutexes
+2019-10-06 20:09:10 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-06 20:09:10 0 [Note] InnoDB: Number of pools: 1
+2019-10-06 20:09:10 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-06 20:09:10 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-06 20:09:10 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-06 20:09:10 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=885953
+2019-10-06 20:09:11 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-06 20:09:11 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-06 20:09:11 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-06 20:09:11 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-06 20:09:11 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-06 20:09:11 0 [Note] InnoDB: Waiting for purge to start
+2019-10-06 20:09:11 0 [Note] InnoDB: 10.4.6 started; log sequence number 885962; transaction id 701
+2019-10-06 20:09:11 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-06 20:09:11 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-06 20:09:12 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2019-10-06 21:09:45 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-06 21:09:45 0 [Note] InnoDB: Uses event mutexes
+2019-10-06 21:09:45 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-06 21:09:45 0 [Note] InnoDB: Number of pools: 1
+2019-10-06 21:09:45 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-06 21:09:45 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-06 21:09:45 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-06 21:09:45 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=885971
+2019-10-06 21:09:46 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-06 21:09:46 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-06 21:09:46 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-06 21:09:46 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-06 21:09:46 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-06 21:09:46 0 [Note] InnoDB: Waiting for purge to start
+2019-10-06 21:09:46 0 [Note] InnoDB: 10.4.6 started; log sequence number 885980; transaction id 701
+2019-10-06 21:09:46 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-06 21:09:46 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-06 21:09:46 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2019-10-07 20:35:27 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-07 20:35:27 0 [Note] InnoDB: Uses event mutexes
+2019-10-07 20:35:27 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-07 20:35:27 0 [Note] InnoDB: Number of pools: 1
+2019-10-07 20:35:27 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-07 20:35:27 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-07 20:35:27 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-07 20:35:27 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=885989
+2019-10-07 20:35:29 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-07 20:35:29 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-07 20:35:29 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-07 20:35:29 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-07 20:35:29 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-07 20:35:29 0 [Note] InnoDB: Waiting for purge to start
+2019-10-07 20:35:29 0 [Note] InnoDB: 10.4.6 started; log sequence number 885998; transaction id 701
+2019-10-07 20:35:29 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-07 20:35:29 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-07 20:35:29 0 [Note] Server socket created on IP: '::'.
+2019-10-07 20:35:29 0 [Note] Reading of all Master_info entries succeeded
+2019-10-07 20:35:29 0 [Note] Added new Master_info '' to hash table
+2019-10-07 20:35:29 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.6-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-10-07 20:35:30 0 [Note] InnoDB: Buffer pool(s) load completed at 191007 20:35:30
+2019-10-07 20:35:50 8 [Warning] Aborted connection 8 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-07 20:35:50 9 [Warning] Aborted connection 9 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-07 20:37:16 10 [Warning] Aborted connection 10 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-07 22:58:10 49 [Warning] Aborted connection 49 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-07 23:02:18 50 [Warning] Aborted connection 50 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-07 23:03:10 51 [Warning] Aborted connection 51 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-07 23:04:18 52 [Warning] Aborted connection 52 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-07 23:12:56 59 [Warning] Aborted connection 59 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-07 23:19:36 62 [Warning] Aborted connection 62 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-07 23:21:03 63 [Warning] Aborted connection 63 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-07 23:21:03 64 [Warning] Aborted connection 64 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-07 23:49:32 85 [Warning] Aborted connection 85 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-07 23:49:48 86 [Warning] Aborted connection 86 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-07 23:50:52 87 [Warning] Aborted connection 87 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-07 23:53:49 88 [Warning] Aborted connection 88 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-07 23:58:23 89 [Warning] Aborted connection 89 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:10:28 92 [Warning] Aborted connection 92 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:11:15 93 [Warning] Aborted connection 93 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:13:32 94 [Warning] Aborted connection 94 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:14:24 95 [Warning] Aborted connection 95 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:15:27 96 [Warning] Aborted connection 96 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:16:32 97 [Warning] Aborted connection 97 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:25:05 99 [Warning] Aborted connection 99 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:25:05 98 [Warning] Aborted connection 98 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:25:05 100 [Warning] Aborted connection 100 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:26:28 103 [Warning] Aborted connection 103 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:26:28 104 [Warning] Aborted connection 104 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:26:28 105 [Warning] Aborted connection 105 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:27:33 106 [Warning] Aborted connection 106 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:27:33 108 [Warning] Aborted connection 108 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:27:33 107 [Warning] Aborted connection 107 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:27:33 109 [Warning] Aborted connection 109 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:29:24 110 [Warning] Aborted connection 110 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:29:24 113 [Warning] Aborted connection 113 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:29:24 112 [Warning] Aborted connection 112 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:29:24 111 [Warning] Aborted connection 111 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:30:17 114 [Warning] Aborted connection 114 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:30:17 115 [Warning] Aborted connection 115 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:30:17 117 [Warning] Aborted connection 117 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:30:17 116 [Warning] Aborted connection 116 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:30:42 121 [Warning] Aborted connection 121 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:30:42 118 [Warning] Aborted connection 118 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:30:42 119 [Warning] Aborted connection 119 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:30:42 120 [Warning] Aborted connection 120 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:38:04 126 [Warning] Aborted connection 126 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:38:04 129 [Warning] Aborted connection 129 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:38:04 127 [Warning] Aborted connection 127 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:38:04 128 [Warning] Aborted connection 128 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:38:47 131 [Warning] Aborted connection 131 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:38:47 130 [Warning] Aborted connection 130 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:38:47 133 [Warning] Aborted connection 133 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:38:47 132 [Warning] Aborted connection 132 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:39:40 134 [Warning] Aborted connection 134 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:39:40 135 [Warning] Aborted connection 135 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:39:40 137 [Warning] Aborted connection 137 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:39:40 136 [Warning] Aborted connection 136 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:44:23 138 [Warning] Aborted connection 138 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:44:23 139 [Warning] Aborted connection 139 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:44:23 141 [Warning] Aborted connection 141 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:44:24 140 [Warning] Aborted connection 140 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:45:15 161 [Warning] Aborted connection 161 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:45:15 160 [Warning] Aborted connection 160 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:45:15 163 [Warning] Aborted connection 163 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:45:15 162 [Warning] Aborted connection 162 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:46:51 164 [Warning] Aborted connection 164 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:46:51 165 [Warning] Aborted connection 165 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:46:51 166 [Warning] Aborted connection 166 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:46:51 167 [Warning] Aborted connection 167 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:46:51 168 [Warning] Aborted connection 168 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:52:14 142 [Warning] Aborted connection 142 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:52:14 143 [Warning] Aborted connection 143 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:53:00 170 [Warning] Aborted connection 170 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:53:00 172 [Warning] Aborted connection 172 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:53:00 169 [Warning] Aborted connection 169 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  0:53:00 171 [Warning] Aborted connection 171 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:00:43 174 [Warning] Aborted connection 174 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:00:43 173 [Warning] Aborted connection 173 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:00:43 176 [Warning] Aborted connection 176 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:00:43 175 [Warning] Aborted connection 175 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:04:12 177 [Warning] Aborted connection 177 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:04:12 178 [Warning] Aborted connection 178 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:04:12 179 [Warning] Aborted connection 179 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:04:12 180 [Warning] Aborted connection 180 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:04:52 182 [Warning] Aborted connection 182 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:04:52 181 [Warning] Aborted connection 181 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:04:52 184 [Warning] Aborted connection 184 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:04:52 183 [Warning] Aborted connection 183 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:06:20 185 [Warning] Aborted connection 185 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:06:20 186 [Warning] Aborted connection 186 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:06:20 188 [Warning] Aborted connection 188 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:06:20 187 [Warning] Aborted connection 187 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:07:41 189 [Warning] Aborted connection 189 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:07:41 192 [Warning] Aborted connection 192 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:07:41 191 [Warning] Aborted connection 191 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:07:41 190 [Warning] Aborted connection 190 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:09:44 195 [Warning] Aborted connection 195 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:09:44 196 [Warning] Aborted connection 196 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:09:44 198 [Warning] Aborted connection 198 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:09:44 197 [Warning] Aborted connection 197 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:13:43 200 [Warning] Aborted connection 200 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:13:43 199 [Warning] Aborted connection 199 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:13:43 201 [Warning] Aborted connection 201 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:13:43 202 [Warning] Aborted connection 202 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:14:07 204 [Warning] Aborted connection 204 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:14:07 203 [Warning] Aborted connection 203 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:14:07 206 [Warning] Aborted connection 206 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:14:07 205 [Warning] Aborted connection 205 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:15:09 207 [Warning] Aborted connection 207 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:15:09 210 [Warning] Aborted connection 210 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:15:09 208 [Warning] Aborted connection 208 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:15:09 209 [Warning] Aborted connection 209 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:18:17 215 [Warning] Aborted connection 215 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:18:17 218 [Warning] Aborted connection 218 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:18:17 216 [Warning] Aborted connection 216 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:18:17 217 [Warning] Aborted connection 217 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:19:04 219 [Warning] Aborted connection 219 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:19:04 222 [Warning] Aborted connection 222 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:19:04 221 [Warning] Aborted connection 221 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:19:04 220 [Warning] Aborted connection 220 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:23:45 223 [Warning] Aborted connection 223 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:23:45 224 [Warning] Aborted connection 224 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:23:46 225 [Warning] Aborted connection 225 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:26:28 226 [Warning] Aborted connection 226 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:26:28 227 [Warning] Aborted connection 227 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:26:28 228 [Warning] Aborted connection 228 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:27:39 238 [Warning] Aborted connection 238 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:27:39 237 [Warning] Aborted connection 237 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:28:05 239 [Warning] Aborted connection 239 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:28:05 240 [Warning] Aborted connection 240 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:34:44 245 [Warning] Aborted connection 245 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:34:44 246 [Warning] Aborted connection 246 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:34:44 248 [Warning] Aborted connection 248 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:34:44 247 [Warning] Aborted connection 247 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:35:33 249 [Warning] Aborted connection 249 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:35:33 250 [Warning] Aborted connection 250 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:35:33 252 [Warning] Aborted connection 252 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:35:33 251 [Warning] Aborted connection 251 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:38:07 253 [Warning] Aborted connection 253 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:38:07 254 [Warning] Aborted connection 254 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:38:07 267 [Warning] Aborted connection 267 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:38:07 268 [Warning] Aborted connection 268 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:38:41 277 [Warning] Aborted connection 277 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:38:41 278 [Warning] Aborted connection 278 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:38:41 279 [Warning] Aborted connection 279 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:39:07 281 [Warning] Aborted connection 281 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:39:07 280 [Warning] Aborted connection 280 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:39:07 283 [Warning] Aborted connection 283 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:39:07 282 [Warning] Aborted connection 282 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:56:00 306 [Warning] Aborted connection 306 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  1:56:35 307 [Warning] Aborted connection 307 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:04:14 312 [Warning] Aborted connection 312 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:04:14 315 [Warning] Aborted connection 315 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:04:14 313 [Warning] Aborted connection 313 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:04:14 314 [Warning] Aborted connection 314 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:04:53 332 [Warning] Aborted connection 332 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:04:53 333 [Warning] Aborted connection 333 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:10:08 358 [Warning] Aborted connection 358 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:10:08 359 [Warning] Aborted connection 359 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:10:08 360 [Warning] Aborted connection 360 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:15:03 362 [Warning] Aborted connection 362 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:15:03 361 [Warning] Aborted connection 361 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:15:03 364 [Warning] Aborted connection 364 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:15:03 363 [Warning] Aborted connection 363 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:17:21 366 [Warning] Aborted connection 366 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:17:21 365 [Warning] Aborted connection 365 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:17:21 368 [Warning] Aborted connection 368 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:17:21 367 [Warning] Aborted connection 367 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:17:21 369 [Warning] Aborted connection 369 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:17:21 371 [Warning] Aborted connection 371 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:17:21 370 [Warning] Aborted connection 370 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:17:36 372 [Warning] Aborted connection 372 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:17:36 373 [Warning] Aborted connection 373 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:17:36 374 [Warning] Aborted connection 374 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:17:36 375 [Warning] Aborted connection 375 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:17:50 377 [Warning] Aborted connection 377 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:17:50 376 [Warning] Aborted connection 376 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:17:50 379 [Warning] Aborted connection 379 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:17:50 378 [Warning] Aborted connection 378 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:21:34 380 [Warning] Aborted connection 380 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:21:34 381 [Warning] Aborted connection 381 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:21:34 383 [Warning] Aborted connection 383 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:21:34 382 [Warning] Aborted connection 382 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:23:15 384 [Warning] Aborted connection 384 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:23:15 385 [Warning] Aborted connection 385 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:23:15 387 [Warning] Aborted connection 387 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:23:15 386 [Warning] Aborted connection 386 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:34:19 390 [Warning] Aborted connection 390 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:34:19 391 [Warning] Aborted connection 391 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:34:19 393 [Warning] Aborted connection 393 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:34:19 392 [Warning] Aborted connection 392 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:35:33 394 [Warning] Aborted connection 394 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:35:33 395 [Warning] Aborted connection 395 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:35:33 396 [Warning] Aborted connection 396 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:35:33 397 [Warning] Aborted connection 397 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:39:14 399 [Warning] Aborted connection 399 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:39:14 398 [Warning] Aborted connection 398 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:39:14 401 [Warning] Aborted connection 401 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:39:14 400 [Warning] Aborted connection 400 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:48:42 406 [Warning] Aborted connection 406 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:48:42 407 [Warning] Aborted connection 407 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:48:42 409 [Warning] Aborted connection 409 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:48:42 408 [Warning] Aborted connection 408 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:49:04 411 [Warning] Aborted connection 411 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:49:04 410 [Warning] Aborted connection 410 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:49:04 413 [Warning] Aborted connection 413 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:49:04 412 [Warning] Aborted connection 412 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:52:52 415 [Warning] Aborted connection 415 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:52:52 414 [Warning] Aborted connection 414 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:52:52 417 [Warning] Aborted connection 417 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:52:52 416 [Warning] Aborted connection 416 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:53:39 418 [Warning] Aborted connection 418 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:53:39 422 [Warning] Aborted connection 422 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:53:39 419 [Warning] Aborted connection 419 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:53:39 421 [Warning] Aborted connection 421 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:53:39 420 [Warning] Aborted connection 420 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:53:39 423 [Warning] Aborted connection 423 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:54:03 425 [Warning] Aborted connection 425 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:54:03 424 [Warning] Aborted connection 424 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:54:03 426 [Warning] Aborted connection 426 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  2:54:03 427 [Warning] Aborted connection 427 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:04:14 440 [Warning] Aborted connection 440 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:04:14 441 [Warning] Aborted connection 441 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:04:14 443 [Warning] Aborted connection 443 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:04:14 442 [Warning] Aborted connection 442 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:05:39 456 [Warning] Aborted connection 456 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:05:39 457 [Warning] Aborted connection 457 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:05:39 459 [Warning] Aborted connection 459 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:05:39 458 [Warning] Aborted connection 458 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:05:39 460 [Warning] Aborted connection 460 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:05:39 461 [Warning] Aborted connection 461 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:05:39 462 [Warning] Aborted connection 462 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:05:49 463 [Warning] Aborted connection 463 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:05:49 465 [Warning] Aborted connection 465 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:05:49 464 [Warning] Aborted connection 464 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:06:14 478 [Warning] Aborted connection 478 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:06:14 479 [Warning] Aborted connection 479 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:06:14 480 [Warning] Aborted connection 480 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:07:08 481 [Warning] Aborted connection 481 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:07:08 482 [Warning] Aborted connection 482 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:07:08 484 [Warning] Aborted connection 484 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:07:08 483 [Warning] Aborted connection 483 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:07:37 497 [Warning] Aborted connection 497 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:07:37 499 [Warning] Aborted connection 499 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:07:37 498 [Warning] Aborted connection 498 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:08:21 500 [Warning] Aborted connection 500 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:08:21 503 [Warning] Aborted connection 503 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:08:21 502 [Warning] Aborted connection 502 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:08:21 501 [Warning] Aborted connection 501 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:08:21 505 [Warning] Aborted connection 505 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:08:21 504 [Warning] Aborted connection 504 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:08:21 506 [Warning] Aborted connection 506 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:08:21 508 [Warning] Aborted connection 508 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:08:21 507 [Warning] Aborted connection 507 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:09:09 521 [Warning] Aborted connection 521 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:09:09 522 [Warning] Aborted connection 522 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:09:09 523 [Warning] Aborted connection 523 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:09:45 524 [Warning] Aborted connection 524 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:09:45 538 [Warning] Aborted connection 538 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:09:45 525 [Warning] Aborted connection 525 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:09:45 540 [Warning] Aborted connection 540 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:09:45 539 [Warning] Aborted connection 539 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:11:16 553 [Warning] Aborted connection 553 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:11:16 554 [Warning] Aborted connection 554 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:11:16 556 [Warning] Aborted connection 556 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:11:16 555 [Warning] Aborted connection 555 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:11:16 557 [Warning] Aborted connection 557 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:11:16 558 [Warning] Aborted connection 558 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:11:16 560 [Warning] Aborted connection 560 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:11:16 559 [Warning] Aborted connection 559 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:22:42 561 [Warning] Aborted connection 561 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:24:18 562 [Warning] Aborted connection 562 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:25:31 564 [Warning] Aborted connection 564 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:25:31 563 [Warning] Aborted connection 563 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:25:31 565 [Warning] Aborted connection 565 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+InnoDB: using atomic writes.
+2019-10-08  3:30:37 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-08  3:30:37 0 [Note] InnoDB: Uses event mutexes
+2019-10-08  3:30:37 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-08  3:30:37 0 [Note] InnoDB: Number of pools: 1
+2019-10-08  3:30:37 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-08  3:30:37 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-08  3:30:37 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-08  3:30:37 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=906484
+2019-10-08  3:30:38 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-08  3:30:38 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-08  3:30:38 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-08  3:30:38 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-08  3:30:38 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-08  3:30:38 0 [Note] InnoDB: Waiting for purge to start
+2019-10-08  3:30:38 0 [Note] InnoDB: 10.4.6 started; log sequence number 906493; transaction id 766
+2019-10-08  3:30:38 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-08  3:30:38 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-08  3:30:39 0 [Note] Server socket created on IP: '::'.
+2019-10-08  3:30:41 0 [Note] Reading of all Master_info entries succeeded
+2019-10-08  3:30:41 0 [Note] Added new Master_info '' to hash table
+2019-10-08  3:30:41 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.6-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-10-08  3:30:42 0 [Note] InnoDB: Buffer pool(s) load completed at 191008  3:30:42
+2019-10-08  3:33:19 20 [Warning] Aborted connection 20 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:33:19 22 [Warning] Aborted connection 22 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:33:19 21 [Warning] Aborted connection 21 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:33:19 23 [Warning] Aborted connection 23 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:36:28 24 [Warning] Aborted connection 24 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:36:28 25 [Warning] Aborted connection 25 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:36:28 27 [Warning] Aborted connection 27 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:36:28 26 [Warning] Aborted connection 26 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:36:49 28 [Warning] Aborted connection 28 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:36:49 31 [Warning] Aborted connection 31 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:36:49 30 [Warning] Aborted connection 30 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:36:49 29 [Warning] Aborted connection 29 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:38:45 32 [Warning] Aborted connection 32 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:38:45 33 [Warning] Aborted connection 33 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:38:45 35 [Warning] Aborted connection 35 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:38:45 34 [Warning] Aborted connection 34 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:39:12 37 [Warning] Aborted connection 37 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:39:12 39 [Warning] Aborted connection 39 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:39:12 36 [Warning] Aborted connection 36 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:39:12 38 [Warning] Aborted connection 38 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:39:38 40 [Warning] Aborted connection 40 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:39:38 41 [Warning] Aborted connection 41 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:39:38 43 [Warning] Aborted connection 43 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:39:38 42 [Warning] Aborted connection 42 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:46:49 56 [Warning] Aborted connection 56 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:46:49 57 [Warning] Aborted connection 57 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:46:49 59 [Warning] Aborted connection 59 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:46:49 58 [Warning] Aborted connection 58 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:49:37 60 [Warning] Aborted connection 60 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:49:37 61 [Warning] Aborted connection 61 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:49:37 63 [Warning] Aborted connection 63 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:49:37 62 [Warning] Aborted connection 62 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:50:21 64 [Warning] Aborted connection 64 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:50:21 65 [Warning] Aborted connection 65 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:50:21 66 [Warning] Aborted connection 66 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:50:21 67 [Warning] Aborted connection 67 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:53:45 68 [Warning] Aborted connection 68 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:53:45 69 [Warning] Aborted connection 69 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:53:45 71 [Warning] Aborted connection 71 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  3:53:45 70 [Warning] Aborted connection 70 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+InnoDB: using atomic writes.
+2019-10-08  8:52:59 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-08  8:52:59 0 [Note] InnoDB: Uses event mutexes
+2019-10-08  8:52:59 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-08  8:52:59 0 [Note] InnoDB: Number of pools: 1
+2019-10-08  8:52:59 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-08  8:52:59 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-08  8:52:59 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-08  8:52:59 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=906502
+2019-10-08  8:53:00 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-08  8:53:00 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-08  8:53:00 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-08  8:53:00 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-08  8:53:00 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-08  8:53:00 0 [Note] InnoDB: Waiting for purge to start
+2019-10-08  8:53:00 0 [Note] InnoDB: 10.4.6 started; log sequence number 906511; transaction id 766
+2019-10-08  8:53:00 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-08  8:53:00 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-08  8:53:00 0 [Note] Server socket created on IP: '::'.
+2019-10-08  8:53:00 0 [Note] Reading of all Master_info entries succeeded
+2019-10-08  8:53:00 0 [Note] Added new Master_info '' to hash table
+2019-10-08  8:53:00 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.6-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-10-08  8:53:00 0 [Note] InnoDB: Buffer pool(s) load completed at 191008  8:53:00
+2019-10-08  8:53:21 9 [Warning] Aborted connection 9 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  8:53:50 8 [Warning] Aborted connection 8 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  8:53:50 13 [Warning] Aborted connection 13 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  8:53:50 10 [Warning] Aborted connection 10 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  8:53:50 11 [Warning] Aborted connection 11 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08  8:53:50 12 [Warning] Aborted connection 12 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:36:10 33 [Warning] Aborted connection 33 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:36:10 30 [Warning] Aborted connection 30 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:38:36 37 [Warning] Aborted connection 37 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:38:36 34 [Warning] Aborted connection 34 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:38:36 31 [Warning] Aborted connection 31 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:38:36 26 [Warning] Aborted connection 26 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:38:36 27 [Warning] Aborted connection 27 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:38:36 32 [Warning] Aborted connection 32 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:38:36 29 [Warning] Aborted connection 29 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:38:36 35 [Warning] Aborted connection 35 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:38:36 28 [Warning] Aborted connection 28 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:38:36 36 [Warning] Aborted connection 36 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:38:36 38 [Warning] Aborted connection 38 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:50:54 51 [Warning] Aborted connection 51 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:50:54 52 [Warning] Aborted connection 52 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:50:54 54 [Warning] Aborted connection 54 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:50:54 53 [Warning] Aborted connection 53 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:52:50 55 [Warning] Aborted connection 55 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:52:50 56 [Warning] Aborted connection 56 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:52:50 58 [Warning] Aborted connection 58 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:52:50 57 [Warning] Aborted connection 57 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:55:25 60 [Warning] Aborted connection 60 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:55:25 59 [Warning] Aborted connection 59 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:55:25 62 [Warning] Aborted connection 62 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:55:25 61 [Warning] Aborted connection 61 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:57:36 67 [Warning] Aborted connection 67 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:58:06 73 [Warning] Aborted connection 73 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:58:06 75 [Warning] Aborted connection 75 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:58:06 65 [Warning] Aborted connection 65 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:58:06 64 [Warning] Aborted connection 64 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:58:06 76 [Warning] Aborted connection 76 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:58:06 63 [Warning] Aborted connection 63 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:58:06 66 [Warning] Aborted connection 66 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:58:06 74 [Warning] Aborted connection 74 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:58:06 69 [Warning] Aborted connection 69 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:58:06 68 [Warning] Aborted connection 68 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:58:06 70 [Warning] Aborted connection 70 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:58:06 72 [Warning] Aborted connection 72 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 11:58:06 71 [Warning] Aborted connection 71 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:17:23 85 [Warning] Aborted connection 85 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:17:23 86 [Warning] Aborted connection 86 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:17:23 88 [Warning] Aborted connection 88 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:17:23 87 [Warning] Aborted connection 87 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:51:43 96 [Warning] Aborted connection 96 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:51:43 95 [Warning] Aborted connection 95 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:51:43 97 [Warning] Aborted connection 97 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:51:43 98 [Warning] Aborted connection 98 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:53:25 99 [Warning] Aborted connection 99 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:53:25 100 [Warning] Aborted connection 100 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:53:25 102 [Warning] Aborted connection 102 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:53:25 101 [Warning] Aborted connection 101 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:54:13 103 [Warning] Aborted connection 103 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:54:13 105 [Warning] Aborted connection 105 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:54:13 104 [Warning] Aborted connection 104 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:54:33 106 [Warning] Aborted connection 106 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:54:33 107 [Warning] Aborted connection 107 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:54:33 108 [Warning] Aborted connection 108 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:56:47 116 [Warning] Aborted connection 116 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:56:47 113 [Warning] Aborted connection 113 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:56:47 114 [Warning] Aborted connection 114 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:56:47 115 [Warning] Aborted connection 115 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:57:14 117 [Warning] Aborted connection 117 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:57:14 118 [Warning] Aborted connection 118 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:57:14 120 [Warning] Aborted connection 120 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:57:14 119 [Warning] Aborted connection 119 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:59:10 125 [Warning] Aborted connection 125 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:59:10 128 [Warning] Aborted connection 128 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:59:10 126 [Warning] Aborted connection 126 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:59:10 127 [Warning] Aborted connection 127 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:59:31 129 [Warning] Aborted connection 129 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:59:31 131 [Warning] Aborted connection 131 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:59:31 130 [Warning] Aborted connection 130 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 12:59:31 132 [Warning] Aborted connection 132 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:16:10 134 [Warning] Aborted connection 134 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:16:10 133 [Warning] Aborted connection 133 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:16:10 136 [Warning] Aborted connection 136 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:16:10 135 [Warning] Aborted connection 135 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:29:00 144 [Warning] Aborted connection 144 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:29:00 143 [Warning] Aborted connection 143 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:29:00 146 [Warning] Aborted connection 146 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:29:00 145 [Warning] Aborted connection 145 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:37:01 161 [Warning] Aborted connection 161 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:37:01 162 [Warning] Aborted connection 162 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:37:01 164 [Warning] Aborted connection 164 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:37:01 163 [Warning] Aborted connection 163 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:57:24 192 [Warning] Aborted connection 192 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:58:05 191 [Warning] Aborted connection 191 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:58:05 194 [Warning] Aborted connection 194 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:58:05 193 [Warning] Aborted connection 193 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:58:33 212 [Warning] Aborted connection 212 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:58:33 211 [Warning] Aborted connection 211 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:58:33 214 [Warning] Aborted connection 214 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:58:33 213 [Warning] Aborted connection 213 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:58:59 216 [Warning] Aborted connection 216 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:58:59 215 [Warning] Aborted connection 215 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:58:59 218 [Warning] Aborted connection 218 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 13:58:59 217 [Warning] Aborted connection 217 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 14:08:35 220 [Warning] Aborted connection 220 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 14:08:35 219 [Warning] Aborted connection 219 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 14:08:35 222 [Warning] Aborted connection 222 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 14:08:35 221 [Warning] Aborted connection 221 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 14:08:37 236 [Warning] Aborted connection 236 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 14:08:37 235 [Warning] Aborted connection 235 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 14:09:22 246 [Warning] Aborted connection 246 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 14:11:56 266 [Warning] Aborted connection 266 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 14:11:57 268 [Warning] Aborted connection 268 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 14:11:57 265 [Warning] Aborted connection 265 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 14:11:57 267 [Warning] Aborted connection 267 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 14:22:09 245 [Warning] Aborted connection 245 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 14:22:09 248 [Warning] Aborted connection 248 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 14:22:09 247 [Warning] Aborted connection 247 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+InnoDB: using atomic writes.
+2019-10-08 20:31:41 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-08 20:31:41 0 [Note] InnoDB: Uses event mutexes
+2019-10-08 20:31:41 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-08 20:31:41 0 [Note] InnoDB: Number of pools: 1
+2019-10-08 20:31:41 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-08 20:31:41 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-08 20:31:41 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-08 20:31:41 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=924382
+2019-10-08 20:31:42 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-08 20:31:42 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-08 20:31:42 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-08 20:31:42 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-08 20:31:42 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-08 20:31:42 0 [Note] InnoDB: Waiting for purge to start
+2019-10-08 20:31:42 0 [Note] InnoDB: 10.4.6 started; log sequence number 924391; transaction id 823
+2019-10-08 20:31:42 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-08 20:31:42 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-08 20:31:42 0 [Note] Server socket created on IP: '::'.
+2019-10-08 20:31:42 0 [Note] Reading of all Master_info entries succeeded
+2019-10-08 20:31:42 0 [Note] Added new Master_info '' to hash table
+2019-10-08 20:31:42 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.6-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-10-08 20:31:42 0 [Note] InnoDB: Buffer pool(s) load completed at 191008 20:31:42
+2019-10-08 20:35:51 15 [Warning] Aborted connection 15 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 20:35:51 8 [Warning] Aborted connection 8 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 20:35:51 9 [Warning] Aborted connection 9 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 20:35:51 11 [Warning] Aborted connection 11 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 20:35:51 10 [Warning] Aborted connection 10 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 20:35:51 12 [Warning] Aborted connection 12 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 20:35:51 13 [Warning] Aborted connection 13 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 20:35:51 14 [Warning] Aborted connection 14 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 20:39:00 17 [Warning] Aborted connection 17 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 20:39:00 16 [Warning] Aborted connection 16 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 20:39:00 19 [Warning] Aborted connection 19 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 20:39:00 18 [Warning] Aborted connection 18 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 20:48:26 20 [Warning] Aborted connection 20 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 20:48:26 21 [Warning] Aborted connection 21 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 21:06:41 23 [Warning] Aborted connection 23 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 21:06:41 22 [Warning] Aborted connection 22 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 21:06:54 24 [Warning] Aborted connection 24 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 21:06:54 25 [Warning] Aborted connection 25 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 22:48:43 27 [Warning] Aborted connection 27 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 22:48:43 26 [Warning] Aborted connection 26 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 22:48:43 29 [Warning] Aborted connection 29 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 22:48:43 28 [Warning] Aborted connection 28 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 22:51:25 33 [Warning] Aborted connection 33 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 22:51:25 31 [Warning] Aborted connection 31 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 22:51:25 30 [Warning] Aborted connection 30 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 22:51:25 34 [Warning] Aborted connection 34 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 22:51:25 32 [Warning] Aborted connection 32 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:15:28 52 [Warning] Aborted connection 52 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:15:28 54 [Warning] Aborted connection 54 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:15:28 51 [Warning] Aborted connection 51 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:15:28 53 [Warning] Aborted connection 53 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:19:34 80 [Warning] Aborted connection 80 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:19:34 79 [Warning] Aborted connection 79 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:19:34 82 [Warning] Aborted connection 82 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:19:34 81 [Warning] Aborted connection 81 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:19:35 83 [Warning] Aborted connection 83 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:24:12 104 [Warning] Aborted connection 104 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:24:12 105 [Warning] Aborted connection 105 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:24:12 107 [Warning] Aborted connection 107 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:24:12 106 [Warning] Aborted connection 106 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:33:20 109 [Warning] Aborted connection 109 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:33:28 108 [Warning] Aborted connection 108 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:33:28 111 [Warning] Aborted connection 111 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:33:28 110 [Warning] Aborted connection 110 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:50:05 118 [Warning] Aborted connection 118 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:50:05 119 [Warning] Aborted connection 119 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:50:05 121 [Warning] Aborted connection 121 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:50:05 120 [Warning] Aborted connection 120 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:51:00 123 [Warning] Aborted connection 123 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:51:01 125 [Warning] Aborted connection 125 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:51:01 122 [Warning] Aborted connection 122 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-08 23:51:01 124 [Warning] Aborted connection 124 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:40:10 135 [Warning] Aborted connection 135 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:40:10 134 [Warning] Aborted connection 134 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:40:10 137 [Warning] Aborted connection 137 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:40:10 136 [Warning] Aborted connection 136 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:44:32 145 [Warning] Aborted connection 145 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:44:32 144 [Warning] Aborted connection 144 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:44:32 142 [Warning] Aborted connection 142 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:44:32 143 [Warning] Aborted connection 143 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:45:38 149 [Warning] Aborted connection 149 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:45:38 146 [Warning] Aborted connection 146 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:45:38 147 [Warning] Aborted connection 147 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:45:38 148 [Warning] Aborted connection 148 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:45:38 151 [Warning] Aborted connection 151 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:45:38 150 [Warning] Aborted connection 150 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:45:53 152 [Warning] Aborted connection 152 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:45:53 153 [Warning] Aborted connection 153 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:45:53 155 [Warning] Aborted connection 155 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:45:53 154 [Warning] Aborted connection 154 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:46:06 159 [Warning] Aborted connection 159 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:46:06 156 [Warning] Aborted connection 156 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:46:06 157 [Warning] Aborted connection 157 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:46:06 158 [Warning] Aborted connection 158 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:47:06 160 [Warning] Aborted connection 160 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:47:06 163 [Warning] Aborted connection 163 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:47:06 161 [Warning] Aborted connection 161 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:47:06 162 [Warning] Aborted connection 162 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:49:48 177 [Warning] Aborted connection 177 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:49:48 176 [Warning] Aborted connection 176 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:49:48 179 [Warning] Aborted connection 179 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:49:48 178 [Warning] Aborted connection 178 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:52:05 181 [Warning] Aborted connection 181 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:52:05 180 [Warning] Aborted connection 180 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:52:05 183 [Warning] Aborted connection 183 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:52:05 182 [Warning] Aborted connection 182 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:54:09 184 [Warning] Aborted connection 184 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:54:09 187 [Warning] Aborted connection 187 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:54:09 185 [Warning] Aborted connection 185 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:54:09 186 [Warning] Aborted connection 186 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:54:43 188 [Warning] Aborted connection 188 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:54:43 191 [Warning] Aborted connection 191 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:54:43 189 [Warning] Aborted connection 189 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:54:43 190 [Warning] Aborted connection 190 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:55:10 192 [Warning] Aborted connection 192 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:55:10 193 [Warning] Aborted connection 193 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:55:10 195 [Warning] Aborted connection 195 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:55:10 194 [Warning] Aborted connection 194 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:56:08 196 [Warning] Aborted connection 196 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:56:08 197 [Warning] Aborted connection 197 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:56:08 199 [Warning] Aborted connection 199 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:56:08 198 [Warning] Aborted connection 198 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:56:44 201 [Warning] Aborted connection 201 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:56:44 200 [Warning] Aborted connection 200 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:56:44 203 [Warning] Aborted connection 203 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:56:44 202 [Warning] Aborted connection 202 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:58:00 204 [Warning] Aborted connection 204 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:58:00 205 [Warning] Aborted connection 205 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:58:00 207 [Warning] Aborted connection 207 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:58:00 206 [Warning] Aborted connection 206 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:58:10 221 [Warning] Aborted connection 221 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:58:10 220 [Warning] Aborted connection 220 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:58:10 223 [Warning] Aborted connection 223 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:58:10 222 [Warning] Aborted connection 222 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:59:53 224 [Warning] Aborted connection 224 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:59:53 225 [Warning] Aborted connection 225 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:59:53 227 [Warning] Aborted connection 227 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  0:59:53 226 [Warning] Aborted connection 226 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:01:44 228 [Warning] Aborted connection 228 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:01:44 229 [Warning] Aborted connection 229 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:01:44 231 [Warning] Aborted connection 231 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:01:44 230 [Warning] Aborted connection 230 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:02:18 232 [Warning] Aborted connection 232 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:02:18 233 [Warning] Aborted connection 233 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:02:18 235 [Warning] Aborted connection 235 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:02:18 234 [Warning] Aborted connection 234 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:02:33 236 [Warning] Aborted connection 236 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:02:33 239 [Warning] Aborted connection 239 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:02:33 237 [Warning] Aborted connection 237 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:02:33 238 [Warning] Aborted connection 238 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:27 248 [Warning] Aborted connection 248 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:27 240 [Warning] Aborted connection 240 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:27 242 [Warning] Aborted connection 242 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:27 241 [Warning] Aborted connection 241 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:27 244 [Warning] Aborted connection 244 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:27 246 [Warning] Aborted connection 246 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:27 249 [Warning] Aborted connection 249 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:27 247 [Warning] Aborted connection 247 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:27 243 [Warning] Aborted connection 243 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:27 245 [Warning] Aborted connection 245 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:27 250 [Warning] Aborted connection 250 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:27 251 [Warning] Aborted connection 251 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:27 253 [Warning] Aborted connection 253 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:27 252 [Warning] Aborted connection 252 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:54 266 [Warning] Aborted connection 266 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:54 267 [Warning] Aborted connection 267 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:54 269 [Warning] Aborted connection 269 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:05:54 268 [Warning] Aborted connection 268 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:08:12 271 [Warning] Aborted connection 271 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:08:18 273 [Warning] Aborted connection 273 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:08:18 270 [Warning] Aborted connection 270 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:08:18 272 [Warning] Aborted connection 272 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:10:58 275 [Warning] Aborted connection 275 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:11:13 274 [Warning] Aborted connection 274 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:11:13 277 [Warning] Aborted connection 277 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:11:13 276 [Warning] Aborted connection 276 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:11:35 290 [Warning] Aborted connection 290 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:11:35 291 [Warning] Aborted connection 291 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:11:35 293 [Warning] Aborted connection 293 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:11:35 292 [Warning] Aborted connection 292 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:12:20 295 [Warning] Aborted connection 295 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:12:20 294 [Warning] Aborted connection 294 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:12:20 297 [Warning] Aborted connection 297 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-09  1:12:20 296 [Warning] Aborted connection 296 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+InnoDB: using atomic writes.
+2019-10-09  8:36:17 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-09  8:36:17 0 [Note] InnoDB: Uses event mutexes
+2019-10-09  8:36:17 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-09  8:36:17 0 [Note] InnoDB: Number of pools: 1
+2019-10-09  8:36:17 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-09  8:36:17 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-09  8:36:17 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-09  8:36:17 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=978786
+2019-10-09  8:36:20 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-09  8:36:20 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-09  8:36:20 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-09  8:36:20 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-09  8:36:20 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-09  8:36:20 0 [Note] InnoDB: Waiting for purge to start
+2019-10-09  8:36:20 0 [Note] InnoDB: 10.4.6 started; log sequence number 978795; transaction id 870
+2019-10-09  8:36:20 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-09  8:36:20 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-09  8:36:20 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2019-10-09 10:45:18 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-09 10:45:18 0 [Note] InnoDB: Uses event mutexes
+2019-10-09 10:45:18 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-09 10:45:18 0 [Note] InnoDB: Number of pools: 1
+2019-10-09 10:45:18 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-09 10:45:18 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-09 10:45:18 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-09 10:45:18 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=983756
+2019-10-09 10:45:19 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-09 10:45:19 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-09 10:45:19 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-09 10:45:19 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-09 10:45:19 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-09 10:45:19 0 [Note] InnoDB: Waiting for purge to start
+2019-10-09 10:45:19 0 [Note] InnoDB: 10.4.6 started; log sequence number 983765; transaction id 891
+2019-10-09 10:45:19 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-09 10:45:19 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-09 10:45:19 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2019-10-11 11:42:12 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-11 11:42:12 0 [Note] InnoDB: Uses event mutexes
+2019-10-11 11:42:12 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-11 11:42:12 0 [Note] InnoDB: Number of pools: 1
+2019-10-11 11:42:12 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-11 11:42:12 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-11 11:42:12 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-11 11:42:12 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1013837
+2019-10-11 11:42:15 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-11 11:42:15 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-11 11:42:15 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-11 11:42:15 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-11 11:42:15 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-11 11:42:15 0 [Note] InnoDB: Waiting for purge to start
+2019-10-11 11:42:15 0 [Note] InnoDB: 10.4.6 started; log sequence number 1013846; transaction id 956
+2019-10-11 11:42:15 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-11 11:42:15 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-11 11:42:15 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2019-10-12 10:29:05 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-12 10:29:05 0 [Note] InnoDB: Uses event mutexes
+2019-10-12 10:29:05 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-12 10:29:05 0 [Note] InnoDB: Number of pools: 1
+2019-10-12 10:29:05 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-12 10:29:06 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-12 10:29:06 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-12 10:29:06 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1268955
+2019-10-12 10:29:08 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-12 10:29:08 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-12 10:29:08 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-12 10:29:08 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-12 10:29:08 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-12 10:29:08 0 [Note] InnoDB: Waiting for purge to start
+2019-10-12 10:29:08 0 [Note] InnoDB: 10.4.6 started; log sequence number 1268964; transaction id 1053
+2019-10-12 10:29:08 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-12 10:29:08 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-12 10:29:08 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2019-10-13 16:37:08 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-13 16:37:08 0 [Note] InnoDB: Uses event mutexes
+2019-10-13 16:37:08 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-13 16:37:08 0 [Note] InnoDB: Number of pools: 1
+2019-10-13 16:37:08 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-13 16:37:08 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-13 16:37:08 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-13 16:37:08 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1926059
+2019-10-13 16:37:09 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-13 16:37:09 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-13 16:37:09 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-13 16:37:09 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-13 16:37:09 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-13 16:37:09 0 [Note] InnoDB: Waiting for purge to start
+2019-10-13 16:37:09 0 [Note] InnoDB: 10.4.6 started; log sequence number 1926068; transaction id 1207
+2019-10-13 16:37:09 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-13 16:37:09 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-13 16:37:09 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2019-10-14  3:04:32 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-14  3:04:32 0 [Note] InnoDB: Uses event mutexes
+2019-10-14  3:04:32 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-14  3:04:32 0 [Note] InnoDB: Number of pools: 1
+2019-10-14  3:04:32 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-14  3:04:32 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-14  3:04:32 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-14  3:04:33 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=11205764
+2019-10-14  3:04:34 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-14  3:04:34 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-14  3:04:34 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-14  3:04:34 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-14  3:04:34 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-14  3:04:34 0 [Note] InnoDB: Waiting for purge to start
+2019-10-14  3:04:34 0 [Note] InnoDB: 10.4.6 started; log sequence number 11205773; transaction id 1721
+2019-10-14  3:04:34 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-14  3:04:34 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-14  3:04:34 0 [Note] Server socket created on IP: '::'.
+2019-10-14  3:04:35 0 [Note] Reading of all Master_info entries succeeded
+2019-10-14  3:04:35 0 [Note] Added new Master_info '' to hash table
+2019-10-14  3:04:35 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.6-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-10-14  3:04:36 0 [Note] InnoDB: Buffer pool(s) load completed at 191014  3:04:36
+2019-10-14  3:16:01 284 [Warning] Aborted connection 284 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-14  3:16:01 285 [Warning] Aborted connection 285 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-14  3:16:01 286 [Warning] Aborted connection 286 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-14  3:16:01 287 [Warning] Aborted connection 287 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-14  3:16:01 289 [Warning] Aborted connection 289 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-14  3:16:01 288 [Warning] Aborted connection 288 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+InnoDB: using atomic writes.
+2019-10-14  3:21:46 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-14  3:21:46 0 [Note] InnoDB: Uses event mutexes
+2019-10-14  3:21:46 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-14  3:21:46 0 [Note] InnoDB: Number of pools: 1
+2019-10-14  3:21:46 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-14  3:21:46 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-14  3:21:46 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-14  3:21:47 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=11225441
+2019-10-14  3:21:47 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-14  3:21:47 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-14  3:21:47 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-14  3:21:47 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-14  3:21:47 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-14  3:21:47 0 [Note] InnoDB: Waiting for purge to start
+2019-10-14  3:21:47 0 [Note] InnoDB: 10.4.6 started; log sequence number 11225450; transaction id 1787
+2019-10-14  3:21:47 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-14  3:21:47 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-14  3:21:48 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2019-10-14  6:51:45 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-14  6:51:45 0 [Note] InnoDB: Uses event mutexes
+2019-10-14  6:51:45 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-14  6:51:45 0 [Note] InnoDB: Number of pools: 1
+2019-10-14  6:51:45 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-14  6:51:45 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-14  6:51:45 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-14  6:51:45 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=12105348
+2019-10-14  6:51:46 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-14  6:51:46 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-14  6:51:46 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-14  6:51:46 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-14  6:51:46 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-14  6:51:46 0 [Note] InnoDB: Waiting for purge to start
+2019-10-14  6:51:46 0 [Note] InnoDB: 10.4.6 started; log sequence number 12105357; transaction id 1927
+2019-10-14  6:51:46 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-14  6:51:46 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-14  6:51:46 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2019-10-14  8:19:50 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-14  8:19:50 0 [Note] InnoDB: Uses event mutexes
+2019-10-14  8:19:50 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-14  8:19:50 0 [Note] InnoDB: Number of pools: 1
+2019-10-14  8:19:50 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-14  8:19:50 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-14  8:19:50 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-14  8:19:50 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=12729544
+2019-10-14  8:19:50 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-14  8:19:50 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-14  8:19:50 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-14  8:19:50 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-14  8:19:50 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-14  8:19:50 0 [Note] InnoDB: Waiting for purge to start
+2019-10-14  8:19:50 0 [Note] InnoDB: 10.4.6 started; log sequence number 12729553; transaction id 2061
+2019-10-14  8:19:50 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-14  8:19:50 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-14  8:19:51 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2019-10-18  7:31:47 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-18  7:31:47 0 [Note] InnoDB: Uses event mutexes
+2019-10-18  7:31:47 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-18  7:31:47 0 [Note] InnoDB: Number of pools: 1
+2019-10-18  7:31:47 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-18  7:31:47 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-18  7:31:47 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-18  7:31:47 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=13199566
+2019-10-18  7:31:48 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-18  7:31:48 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-18  7:31:48 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-18  7:31:48 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-18  7:31:48 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-18  7:31:48 0 [Note] InnoDB: Waiting for purge to start
+2019-10-18  7:31:48 0 [Note] InnoDB: 10.4.6 started; log sequence number 13199575; transaction id 2219
+2019-10-18  7:31:48 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-18  7:31:48 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-18  7:31:48 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2019-10-18 10:35:42 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-10-18 10:35:42 0 [Note] InnoDB: Uses event mutexes
+2019-10-18 10:35:42 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-10-18 10:35:42 0 [Note] InnoDB: Number of pools: 1
+2019-10-18 10:35:42 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-10-18 10:35:42 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2019-10-18 10:35:42 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-10-18 10:35:43 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=13876935
+2019-10-18 10:35:44 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-10-18 10:35:44 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-10-18 10:35:44 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-10-18 10:35:44 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-10-18 10:35:44 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2019-10-18 10:35:44 0 [Note] InnoDB: Waiting for purge to start
+2019-10-18 10:35:44 0 [Note] InnoDB: 10.4.6 started; log sequence number 13876944; transaction id 2349
+2019-10-18 10:35:44 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2019-10-18 10:35:44 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-10-18 10:35:44 0 [Note] Server socket created on IP: '::'.
+2019-10-18 10:35:45 0 [Note] Reading of all Master_info entries succeeded
+2019-10-18 10:35:45 0 [Note] Added new Master_info '' to hash table
+2019-10-18 10:35:45 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.6-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-10-18 10:35:45 0 [Note] InnoDB: Buffer pool(s) load completed at 191018 10:35:45
+2019-10-18 10:38:57 8 [Warning] Aborted connection 8 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 10:38:57 9 [Warning] Aborted connection 9 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 10:38:57 10 [Warning] Aborted connection 10 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 10:40:16 12 [Warning] Aborted connection 12 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 10:40:16 13 [Warning] Aborted connection 13 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 10:40:16 11 [Warning] Aborted connection 11 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 10:43:03 14 [Warning] Aborted connection 14 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 10:43:03 15 [Warning] Aborted connection 15 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 10:43:03 16 [Warning] Aborted connection 16 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 10:46:40 17 [Warning] Aborted connection 17 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 10:46:40 18 [Warning] Aborted connection 18 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 10:48:17 19 [Warning] Aborted connection 19 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 10:48:17 20 [Warning] Aborted connection 20 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 10:48:17 21 [Warning] Aborted connection 21 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 11:03:32 24 [Warning] Aborted connection 24 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 11:03:32 22 [Warning] Aborted connection 22 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 11:03:32 23 [Warning] Aborted connection 23 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 11:17:37 25 [Warning] Aborted connection 25 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 11:17:37 27 [Warning] Aborted connection 27 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-10-18 11:17:37 26 [Warning] Aborted connection 26 to db: 'ehealth' user: 'root' host: 'localhost' (Got an error reading communication packets)
+InnoDB: using atomic writes.
+2020-07-14 20:30:29 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-07-14 20:30:29 0 [Note] InnoDB: Uses event mutexes
+2020-07-14 20:30:29 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-07-14 20:30:29 0 [Note] InnoDB: Number of pools: 1
+2020-07-14 20:30:29 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-07-14 20:30:29 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2020-07-14 20:30:29 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-07-14 20:30:29 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=13876953
+2020-07-14 20:30:29 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-07-14 20:30:29 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-07-14 20:30:29 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-07-14 20:30:29 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-07-14 20:30:29 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2020-07-14 20:30:29 0 [Note] InnoDB: Waiting for purge to start
+2020-07-14 20:30:29 0 [Note] InnoDB: 10.4.6 started; log sequence number 13876962; transaction id 2349
+2020-07-14 20:30:29 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2020-07-14 20:30:29 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-07-14 20:30:30 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2020-07-14 20:52:38 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-07-14 20:52:38 0 [Note] InnoDB: Uses event mutexes
+2020-07-14 20:52:38 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-07-14 20:52:38 0 [Note] InnoDB: Number of pools: 1
+2020-07-14 20:52:38 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-07-14 20:52:38 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2020-07-14 20:52:38 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-07-14 20:52:38 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=14651057
+2020-07-14 20:52:39 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-07-14 20:52:39 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-07-14 20:52:39 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-07-14 20:52:39 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-07-14 20:52:39 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2020-07-14 20:52:39 0 [Note] InnoDB: Waiting for purge to start
+2020-07-14 20:52:39 0 [Note] InnoDB: 10.4.6 started; log sequence number 14651066; transaction id 2562
+2020-07-14 20:52:39 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2020-07-14 20:52:39 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-07-14 20:52:39 0 [Note] Server socket created on IP: '::'.
+InnoDB: using atomic writes.
+2020-07-16 11:32:10 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-07-16 11:32:10 0 [Note] InnoDB: Uses event mutexes
+2020-07-16 11:32:10 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-07-16 11:32:10 0 [Note] InnoDB: Number of pools: 1
+2020-07-16 11:32:10 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-07-16 11:32:10 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2020-07-16 11:32:10 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-07-16 11:32:10 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=14762541
+2020-07-16 11:32:13 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-07-16 11:32:13 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-07-16 11:32:13 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-07-16 11:32:13 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-07-16 11:32:13 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2020-07-16 11:32:13 0 [Note] InnoDB: Waiting for purge to start
+2020-07-16 11:32:13 0 [Note] InnoDB: 10.4.6 started; log sequence number 14762550; transaction id 2600
+2020-07-16 11:32:13 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2020-07-16 11:32:13 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-07-16 11:32:13 0 [Note] Server socket created on IP: '::'.
