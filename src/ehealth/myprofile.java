@@ -165,7 +165,6 @@ public class myprofile extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         age = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        bloodgroup = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
         id = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
@@ -185,6 +184,7 @@ public class myprofile extends javax.swing.JFrame {
         Jlabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         Update = new javax.swing.JButton();
+        bloodgroup = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(980, 580));
@@ -215,12 +215,6 @@ public class myprofile extends javax.swing.JFrame {
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel5.setText("Blood Group :");
-
-        bloodgroup.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bloodgroupActionPerformed(evt);
-            }
-        });
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel6.setText("ID :");
@@ -309,6 +303,8 @@ public class myprofile extends javax.swing.JFrame {
             }
         });
 
+        bloodgroup.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
         javax.swing.GroupLayout kGradientPanel1Layout = new javax.swing.GroupLayout(kGradientPanel1);
         kGradientPanel1.setLayout(kGradientPanel1Layout);
         kGradientPanel1Layout.setHorizontalGroup(
@@ -354,8 +350,7 @@ public class myprofile extends javax.swing.JFrame {
                         .addGap(32, 32, 32)
                         .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(kGradientPanel1Layout.createSequentialGroup()
-                                .addComponent(bloodgroup, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGap(0, 0, Short.MAX_VALUE)
                                 .addComponent(jLabel16)
                                 .addGap(147, 147, 147))
                             .addGroup(kGradientPanel1Layout.createSequentialGroup()
@@ -369,7 +364,10 @@ public class myprofile extends javax.swing.JFrame {
                                             .addComponent(age, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addComponent(Jlabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(135, 135, 135))))
+                                .addGap(135, 135, 135))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, kGradientPanel1Layout.createSequentialGroup()
+                                .addComponent(bloodgroup, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, kGradientPanel1Layout.createSequentialGroup()
@@ -401,12 +399,13 @@ public class myprofile extends javax.swing.JFrame {
                             .addComponent(jLabel4))
                         .addGap(18, 18, 18)
                         .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(bloodgroup, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel5))
-                        .addGap(18, 18, 18)
-                        .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel6)
-                            .addComponent(id, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(kGradientPanel1Layout.createSequentialGroup()
+                                .addComponent(jLabel5)
+                                .addGap(21, 21, 21)
+                                .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel6)
+                                    .addComponent(id, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(bloodgroup, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addGap(26, 26, 26)
                         .addComponent(Jlabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -517,8 +516,18 @@ public class myprofile extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         dispose();
-        doctorhome dc = new doctorhome(u);
-        dc.setVisible(true);
+        if(u.dept.equals("doctor")){
+            doctorhome dc = new doctorhome(u);
+            dc.setVisible(true);
+        }
+        else if(u.dept.equals("student")){
+            studenthome sc = new studenthome(u);
+            sc.setVisible(true);
+        }
+        else{
+            teacherhome tc = new teacherhome(u);
+            tc.setVisible(true);
+        }
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -561,10 +570,6 @@ public class myprofile extends javax.swing.JFrame {
     private void departmentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_departmentActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_departmentActionPerformed
-
-    private void bloodgroupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bloodgroupActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_bloodgroupActionPerformed
 
     private void nameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nameActionPerformed
         // TODO add your handling code here:
@@ -613,7 +618,7 @@ public class myprofile extends javax.swing.JFrame {
     private javax.swing.JButton Update;
     private javax.swing.JTextField address;
     private javax.swing.JLabel age;
-    private javax.swing.JTextField bloodgroup;
+    private javax.swing.JLabel bloodgroup;
     private javax.swing.JTextField contact;
     private javax.swing.JTextField department;
     private javax.swing.JTextField email;
