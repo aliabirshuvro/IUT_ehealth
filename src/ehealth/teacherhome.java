@@ -52,7 +52,7 @@ public class teacherhome extends javax.swing.JFrame {
 //        } catch (SQLException ex) {
 //            Logger.getLogger(doctorhome.class.getName()).log(Level.SEVERE, null, ex);
 //        }
-        sql3 = "select *from yellowslip where accept = '" + "accept" + "'";
+        sql3 = "select * from yellowslip,teacher_student_connection where teacher_student_connection.teacherid = '"+u.id+"' and teacher_student_connection.studentid = yellowslip.Id" ;
         try {
             rss = st.executeQuery(sql3);
 //            String sql4 = "select *from yellowslip where accept = '" + "accept";
@@ -77,13 +77,6 @@ public class teacherhome extends javax.swing.JFrame {
 //                Logger.getLogger(teacherhome.class.getName()).log(Level.SEVERE, null, ex);
 //            }
             rss.next();
-            while(rss.next()){
-                sql4 = "select * from teacher_student_connection where teacherid = '"+u.id+"' and studentid = '"+rss.getString("Id")+"'" ;
-                rss4 = st.executeQuery(sql4);
-                if(rss4.next())
-                    break;
-                
-            }
             
 //            a++;
             System.out.println(a);
@@ -337,23 +330,20 @@ public class teacherhome extends javax.swing.JFrame {
 //            }   
 //            if(a!=0)
 //            {
-            boolean flag= true;
-            while(rss.next()){
-                sql4 = "select * from teacher_student_connection where teacherid = '"+u.id+"' and studentid = '"+rss.getString("Id")+"'" ;
-                rss4 = st.executeQuery(sql4);
-                if(rss4.next()){
-                    imgbytes = rss.getBytes("image");
-                    Image image = getToolkit().createImage(imgbytes);
-                    image1 = new ImageIcon(image);
-                    Jlabel18.setIcon(image1);
-                    flag=false;
-                    break;
-                }
-                
+            if(rss.next())
+            {    
+            imgbytes = rss.getBytes("image");
+            Image image = getToolkit().createImage(imgbytes);
+            image1 = new ImageIcon(image);
+            Jlabel18.setIcon(image1);
             }
-            if(flag){    
-                JOptionPane.showMessageDialog(null, "finished");
-            }
+            else
+            {
+//                loginform loginf = new loginform();
+//                loginf.setVisible(true);
+                JOptionPane.showMessageDialog(null, "finish");
+//                dispose();
+            }   
 //            rss2=rss;
 //            }    
             
