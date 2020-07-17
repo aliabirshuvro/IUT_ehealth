@@ -297,39 +297,7 @@ public class teacherhome extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         try {
-            // TODO add your handling code here:
             
-//            if(a==count)
-//                dispose();
-            
-//            a++;
-//            System.out.println(a+" "+count);
-//            if(a==count)
-//            {
-//                
-//                loginform loginf = new loginform();
-//                loginf.setVisible(true);
-//                JOptionPane.showMessageDialog(null, "finish");
-//                dispose();
-//            }
-//            String sql3 ="select *from yellowslip where accept = '" + "accept" + "'";
-      
-//        ResultSet rss2;
-//        try {
-//            rss2 = st.executeQuery(sql3);
-//            count = 0;
-//            while(rss2.next())
-//                    count++;       
-//        } catch (SQLException ex) {
-//            Logger.getLogger(doctorhome.class.getName()).log(Level.SEVERE, null, ex);
-//        }
-//            if(rss.equals())
-//            {
-//                 a=0;
-//                 dispose();
-//            }   
-//            if(a!=0)
-//            {
             if(rss.next())
             {    
             imgbytes = rss.getBytes("image");
@@ -339,75 +307,15 @@ public class teacherhome extends javax.swing.JFrame {
             }
             else
             {
-//                loginform loginf = new loginform();
-//                loginf.setVisible(true);
-                JOptionPane.showMessageDialog(null, "finish");
-//                dispose();
+//                
+                JOptionPane.showMessageDialog(null, "finished");
             }   
-//            rss2=rss;
-//            }    
-            
-//            if(rss.equals(null))
-//                dispose();
-//            rss2 = rss;
-//            count = 0;
-//            while (rss2.next()) {
-//                count++;
-//            }
-//            if (count != 0) {
-//                imgbytes = rss.getBytes("image");
-////                ImageIcon image = new ImageIcon(img);
-//                Image image = getToolkit().createImage(imgbytes);
-////                Image icon = new 
-////            System.out.println("A1");
-//                image1 = new ImageIcon(image);
-//                Jlabel18.setIcon(image1);
-//            } else {
-//                JOptionPane.showMessageDialog(null, "All clear");
-//                   dispose();
-//            }
+//            
 
         } catch (SQLException ex) {
             Logger.getLogger(teacherhome.class.getName()).log(Level.SEVERE, null, ex);
         }
 
-//        sql3 = "select *from yellowslip where accept = '" + "accept"+"'";
-//        try {
-//            rss = st.executeQuery(sql3);
-//            while (rss.next()) {
-//                String sql4 = "select *from yellowslip where accept = '" + "accept" ;
-//                ResultSet rss2;
-//                try {
-//                    a = 0;
-//                    rss2 = st.executeQuery(sql4);
-//                    while (rss2.next()) {
-//                        count++;
-//                    }
-//                    if (count != 0) {
-//                        rss.next();
-//                        imgbytes = rss.getBytes("image");
-//                        Image image = getToolkit().createImage(imgbytes);
-//                        image1 = new ImageIcon(image);
-//                        Jlabel15.setIcon(image1);
-//                        dispose();
-//                    } else {
-////                    image1 = null; 
-//                        JOptionPane.showMessageDialog(null, "All clear");
-//                        dispose();
-//                    }
-//                } catch (SQLException ex) {
-//                    Logger.getLogger(teacherhome.class.getName()).log(Level.SEVERE, null, ex);
-//                }
-////            rss.next();
-////            imgbytes = rss.getBytes("image");
-////            Image image = getToolkit().createImage(imgbytes);
-////            image1 = new ImageIcon(image);
-////            Jlabel15.setIcon(image1);
-//
-//            }
-//        } catch (SQLException ex) {
-//            Logger.getLogger(teacherhome.class.getName()).log(Level.SEVERE, null, ex);
-//        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
