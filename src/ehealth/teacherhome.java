@@ -19,6 +19,8 @@ public class teacherhome extends javax.swing.JFrame {
     public Connection cn;
     public user u;
     String sql3;
+    String sql4;
+    ResultSet rss4;
     ResultSet rss;
     ResultSet rss2;
     byte[] photo = null;
@@ -31,7 +33,7 @@ public class teacherhome extends javax.swing.JFrame {
     public teacherhome(user _u) {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ehealth?zeroDateTimeBehavior=convertToNull", "root", "");
+            cn = DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12353692","sql12353692","NruRn74dY6");
             st = cn.createStatement();
             //JOptionPane.showMessageDialog(null, "Connected");
         } catch (Exception e) {
@@ -75,6 +77,14 @@ public class teacherhome extends javax.swing.JFrame {
 //                Logger.getLogger(teacherhome.class.getName()).log(Level.SEVERE, null, ex);
 //            }
             rss.next();
+            while(rss.next()){
+                sql4 = "select * from teacher_student_connection where teacherid = '"+u.id+"' and studentid = '"+rss.getString("Id")+"'" ;
+                rss4 = st.executeQuery(sql4);
+                if(rss4.next())
+                    break;
+                
+            }
+            
 //            a++;
             System.out.println(a);
 //            slip=rss.getInt("SlipNo");
@@ -210,26 +220,26 @@ public class teacherhome extends javax.swing.JFrame {
             kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(kGradientPanel1Layout.createSequentialGroup()
                 .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(kGradientPanel1Layout.createSequentialGroup()
-                        .addGap(74, 74, 74)
-                        .addComponent(back, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(142, 142, 142))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)))
-                .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(18, 18, 18))
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
-                        .addComponent(jDesktopPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(88, Short.MAX_VALUE))
+                        .addGap(74, 74, 74)
+                        .addComponent(back, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(142, 142, 142)))
+                .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(212, 212, 212)
                         .addComponent(myprofile, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(37, 37, 37))))
+                        .addGap(37, 37, 37))
+                    .addGroup(kGradientPanel1Layout.createSequentialGroup()
+                        .addComponent(jDesktopPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(83, Short.MAX_VALUE))))
         );
         kGradientPanel1Layout.setVerticalGroup(
             kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -327,20 +337,23 @@ public class teacherhome extends javax.swing.JFrame {
 //            }   
 //            if(a!=0)
 //            {
-            if(rss.next())
-            {    
-            imgbytes = rss.getBytes("image");
-            Image image = getToolkit().createImage(imgbytes);
-            image1 = new ImageIcon(image);
-            Jlabel18.setIcon(image1);
+            boolean flag= true;
+            while(rss.next()){
+                sql4 = "select * from teacher_student_connection where teacherid = '"+u.id+"' and studentid = '"+rss.getString("Id")+"'" ;
+                rss4 = st.executeQuery(sql4);
+                if(rss4.next()){
+                    imgbytes = rss.getBytes("image");
+                    Image image = getToolkit().createImage(imgbytes);
+                    image1 = new ImageIcon(image);
+                    Jlabel18.setIcon(image1);
+                    flag=false;
+                    break;
+                }
+                
             }
-            else
-            {
-//                loginform loginf = new loginform();
-//                loginf.setVisible(true);
-                JOptionPane.showMessageDialog(null, "finish");
-//                dispose();
-            }    
+            if(flag){    
+                JOptionPane.showMessageDialog(null, "finished");
+            }
 //            rss2=rss;
 //            }    
             

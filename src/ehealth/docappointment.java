@@ -24,7 +24,7 @@ public class docappointment extends javax.swing.JFrame {
     public docappointment(user _u) {
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            cn=DriverManager.getConnection("jdbc:mysql://localhost:3306/ehealth?zeroDateTimeBehavior=convertToNull","root","");
+            cn=DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12353692","sql12353692","NruRn74dY6");
             st=cn.createStatement();
             //JOptionPane.showMessageDialog(null, "Connected");
         }catch (Exception e){

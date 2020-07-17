@@ -33,7 +33,7 @@ public class myprofile extends javax.swing.JFrame {
             d1=df1.format(dt);
         try{
             if(u.dept.equals("student")){
-                cn=DriverManager.getConnection("jdbc:mysql://localhost:3306/ehealth?zeroDateTimeBehavior=convertToNull","root","");
+                cn=DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12353692","sql12353692","NruRn74dY6");
                 st=cn.createStatement();
                 u=_u;
                 String sql;

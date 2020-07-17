@@ -41,7 +41,7 @@ public class ViewRefund extends javax.swing.JFrame {
     public ViewRefund(user _u) {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ehealth?zeroDateTimeBehavior=convertToNull", "root", "");
+            cn = DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12353692","sql12353692","NruRn74dY6");
             st = cn.createStatement();
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Not Connected");
