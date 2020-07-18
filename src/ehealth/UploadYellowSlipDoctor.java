@@ -25,7 +25,7 @@ import javax.swing.JOptionPane;
  *
  * @author Raiyan
  */
-public class UploadYellowSlip extends javax.swing.JFrame {
+public class UploadYellowSlipDoctor extends javax.swing.JFrame {
 
     /**
      * Creates new form UploadYellowSlip
@@ -36,7 +36,7 @@ public class UploadYellowSlip extends javax.swing.JFrame {
     public int count = 0;
     public Statement st;
     public Connection cn;
-    public UploadYellowSlip(user _u) {
+    public UploadYellowSlipDoctor(user _u) {
         try{
             Class.forName("com.mysql.jdbc.Driver");
             cn=DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12353692","sql12353692","NruRn74dY6");
@@ -72,6 +72,8 @@ public class UploadYellowSlip extends javax.swing.JFrame {
         back = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
+        studentid = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(980, 580));
@@ -138,6 +140,9 @@ public class UploadYellowSlip extends javax.swing.JFrame {
             }
         });
 
+        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel3.setText("Enter Student ID:");
+
         javax.swing.GroupLayout kGradientPanel1Layout = new javax.swing.GroupLayout(kGradientPanel1);
         kGradientPanel1.setLayout(kGradientPanel1Layout);
         kGradientPanel1Layout.setHorizontalGroup(
@@ -145,15 +150,20 @@ public class UploadYellowSlip extends javax.swing.JFrame {
             .addGroup(kGradientPanel1Layout.createSequentialGroup()
                 .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
-                        .addGap(23, 23, 23)
-                        .addComponent(back, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jButton1))
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 276, Short.MAX_VALUE)
+                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(kGradientPanel1Layout.createSequentialGroup()
+                        .addGap(23, 23, 23)
+                        .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(back, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(kGradientPanel1Layout.createSequentialGroup()
+                                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(33, 33, 33)
+                                .addComponent(studentid, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 96, Short.MAX_VALUE)
                 .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel2)
@@ -169,6 +179,10 @@ public class UploadYellowSlip extends javax.swing.JFrame {
                 .addComponent(jButton1)
                 .addGap(18, 18, 18)
                 .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(82, 82, 82)
+                .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(studentid, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(back, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(52, 52, 52))
@@ -198,48 +212,44 @@ public class UploadYellowSlip extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
-        String sql;
-        sql = "insert into yellowslip values (?,?,?,?,?)";
-        PreparedStatement pst;
-
         try {
-
-            pst = cn.prepareStatement(sql);
-            pst.setInt(1,count);
-
-            pst.setString(2 ,u.id);
-
-            pst.setBytes(3,photo);
-
-            pst.setString(4 ,"");
-
-            pst.setString(5 ,"");
-
-            pst.execute();
-            JOptionPane.showMessageDialog(null, "Added Successfully");
-            dispose();
-
+            boolean flag=true;
+            String sql2 ="select * from userstudent where studentid = '"+studentid.getText()+"'" ;
+            ResultSet rss=st.executeQuery(sql2);
+            if(rss.next())
+                flag=false;
+            if(flag){
+                JOptionPane.showMessageDialog(null,"Incorrect Student ID");
+            }
+            else{
+                try {
+                    String sql;
+                    sql = "insert into yellowslip values (?,?,?,?,?)";
+                    PreparedStatement pst;
+                    pst = cn.prepareStatement(sql);
+                    pst.setInt(1,count);
+                    
+                    pst.setString(2 ,studentid.getText());
+                    
+                    pst.setBytes(3,photo);
+                    
+                    pst.setString(4 ,"accept");
+                    
+                    pst.setString(5 ,"");
+                    
+                    pst.execute();
+                    JOptionPane.showMessageDialog(null, "Added Successfully");
+                    dispose();
+                    
+                } catch (SQLException ex) {
+                    
+                    Logger.getLogger(UploadBill.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
         } catch (SQLException ex) {
-
-            Logger.getLogger(UploadBill.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(UploadYellowSlipDoctor.class.getName()).log(Level.SEVERE, null, ex);
         }
 
-        //                pst.setString(2, age.getText());
-        //                pst.setString(3, bloodgroup.getText());
-        //                pst.setString(4, id.getText());
-        //                pst.setString(5, department.getText());
-        //                pst.setString(6, contact.getText());
-        //                pst.setString(7, email.getText());
-        //                if(Residential.isSelected())
-        //                    stat=Residential.getText();
-        //                else if(Nonres.isSelected())
-        //                    stat=Nonres.getText();
-        //                else
-        //                    stat=Nonapp.getText();
-        //                pst.setString(8, stat);
-        //                pst.setString(9, address.getText());
-        //                pst.setBytes(10,photo);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -318,7 +328,9 @@ public class UploadYellowSlip extends javax.swing.JFrame {
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JTextField jTextField1;
     private keeptoo.KGradientPanel kGradientPanel1;
+    private javax.swing.JTextField studentid;
     // End of variables declaration//GEN-END:variables
 }
