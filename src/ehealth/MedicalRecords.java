@@ -20,7 +20,7 @@ import javax.swing.JOptionPane;
  *
  * @author Raiyan
  */
-public class ViewRefund extends javax.swing.JFrame {
+public class MedicalRecords extends javax.swing.JFrame {
 
     /**
      * Creates new form ViewRefund
@@ -37,8 +37,10 @@ public class ViewRefund extends javax.swing.JFrame {
     ResultSet rss2;
     public int count = 0;
     public int a = 0;
+    public String accept1 = "accept";
+    
 
-    public ViewRefund(user _u) {
+    public MedicalRecords(user _u) {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             cn = DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12353692","sql12353692","NruRn74dY6");
@@ -47,7 +49,8 @@ public class ViewRefund extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Not Connected");
         }
         u = _u;
-        String sql2 = "select *from billdatabase where id = '" + u.id + "'";
+        
+        String sql2 = "select *from yellowslip where Id = '" + u.id + "' and accept = '"+ accept1 +"'";
         ResultSet rss3;
         try {
             rss3 = st.executeQuery(sql2);
@@ -59,13 +62,13 @@ public class ViewRefund extends javax.swing.JFrame {
             Logger.getLogger(doctorhome.class.getName()).log(Level.SEVERE, null, ex);
         }
 
-        String sql3 = "select *from billdatabase where id = '" + u.id + "'";
+        String sql3 = "select *from yellowslip where Id = '" + u.id + "' and accept = '"+ accept1 +"'";
 
         try {
             rss2 = st.executeQuery(sql3);
             rss2.next();
 //            a++;
-            Bill = rss2.getInt("BillNo");
+            Bill = rss2.getInt("SlipNo");
             accept = rss2.getString("accept");
             reject = rss2.getString("reject");
             imgbytes = rss2.getBytes("image");
@@ -84,13 +87,6 @@ public class ViewRefund extends javax.swing.JFrame {
         try {
             jLabel1.setIcon(image1);
             jLabel5.setText(String.valueOf(Bill));
-            if (accept.equals("accept")) {
-                jLabel3.setText(accept);
-            } else if (reject.equals("reject")) {
-                jLabel3.setText(reject);
-            } else {
-                jLabel3.setText("No decision");
-            }
 //             System.out.println("ABC3");
 
         } catch (Exception e) {
@@ -98,6 +94,7 @@ public class ViewRefund extends javax.swing.JFrame {
         }
     }
 
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -112,8 +109,6 @@ public class ViewRefund extends javax.swing.JFrame {
         jDesktopPane3 = new javax.swing.JDesktopPane();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        jDesktopPane2 = new javax.swing.JDesktopPane();
-        jLabel3 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         back = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
@@ -143,7 +138,7 @@ public class ViewRefund extends javax.swing.JFrame {
 
         jLabel5.setBackground(new java.awt.Color(255, 255, 255));
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel5.setText("Bill No:");
+        jLabel5.setText("Slip No:");
 
         jDesktopPane3.setLayer(jLabel4, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jDesktopPane3.setLayer(jLabel5, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -173,31 +168,6 @@ public class ViewRefund extends javax.swing.JFrame {
                     .addGap(20, 20, 20)
                     .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addContainerGap(21, Short.MAX_VALUE)))
-        );
-
-        jDesktopPane2.setBackground(new java.awt.Color(255, 255, 255));
-
-        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel3.setText("Decision: ");
-
-        jDesktopPane2.setLayer(jLabel3, javax.swing.JLayeredPane.DEFAULT_LAYER);
-
-        javax.swing.GroupLayout jDesktopPane2Layout = new javax.swing.GroupLayout(jDesktopPane2);
-        jDesktopPane2.setLayout(jDesktopPane2Layout);
-        jDesktopPane2Layout.setHorizontalGroup(
-            jDesktopPane2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jDesktopPane2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(22, Short.MAX_VALUE))
-        );
-        jDesktopPane2Layout.setVerticalGroup(
-            jDesktopPane2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jDesktopPane2Layout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(21, Short.MAX_VALUE))
         );
 
         jButton1.setText("Next");
@@ -255,9 +225,7 @@ public class ViewRefund extends javax.swing.JFrame {
                                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(kGradientPanel2Layout.createSequentialGroup()
                                 .addGap(84, 84, 84)
-                                .addGroup(kGradientPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jDesktopPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jDesktopPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addComponent(jDesktopPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jDesktopPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(71, 71, 71))
@@ -269,8 +237,6 @@ public class ViewRefund extends javax.swing.JFrame {
                     .addGroup(kGradientPanel2Layout.createSequentialGroup()
                         .addGap(200, 200, 200)
                         .addComponent(jDesktopPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jDesktopPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(back, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(kGradientPanel2Layout.createSequentialGroup()
@@ -319,7 +285,7 @@ public class ViewRefund extends javax.swing.JFrame {
                 accept = rss2.getString("accept");
                 reject = rss2.getString("reject");
                 imgbytes = rss2.getBytes("image");
-                Bill = rss2.getInt("BillNo");
+                Bill = rss2.getInt("SlipNo");
 //                ImageIcon image = new ImageIcon(img);
                 Image image = getToolkit().createImage(imgbytes);
 //                Image icon = new 
@@ -327,17 +293,10 @@ public class ViewRefund extends javax.swing.JFrame {
                 image1 = new ImageIcon(image);
                 jLabel1.setIcon(image1);
                 jLabel5.setText(String.valueOf(Bill));
-                if (accept.equals("accept")) {
-                    jLabel3.setText(accept);
-                } else if (reject.equals("reject")) {
-                    jLabel3.setText(reject);
-                } else {
-                    jLabel3.setText("No decision");
-                }
             }
             else
             {   
-                StudentRefund sr = new StudentRefund(u);
+                studenthome sr = new studenthome(u);
                 sr.setVisible(true);
                 JOptionPane.showMessageDialog(null, "finished");
                 dispose();    
@@ -395,11 +354,9 @@ public class ViewRefund extends javax.swing.JFrame {
     private javax.swing.JButton back;
     private javax.swing.JButton jButton1;
     private javax.swing.JDesktopPane jDesktopPane1;
-    private javax.swing.JDesktopPane jDesktopPane2;
     private javax.swing.JDesktopPane jDesktopPane3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private keeptoo.KGradientPanel kGradientPanel1;

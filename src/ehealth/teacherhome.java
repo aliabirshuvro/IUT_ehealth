@@ -28,6 +28,7 @@ public class teacherhome extends javax.swing.JFrame {
     public ImageIcon image1;
     public int count = 0;
     public int a = 0;
+    public String accept1 = "accept";
 //    public int slip = 0;
 
     public teacherhome(user _u) {
@@ -52,7 +53,8 @@ public class teacherhome extends javax.swing.JFrame {
 //        } catch (SQLException ex) {
 //            Logger.getLogger(doctorhome.class.getName()).log(Level.SEVERE, null, ex);
 //        }
-        sql3 = "select * from yellowslip,teacher_student_connection where teacher_student_connection.teacherid = '"+u.id+"' and teacher_student_connection.studentid = yellowslip.Id" ;
+        
+        sql3 = "select * from yellowslip,teacher_student_connection where teacher_student_connection.teacherid = '"+u.id+"' and yellowslip.accept = '"+accept1+"'and teacher_student_connection.studentid = yellowslip.Id" ;
         try {
             rss = st.executeQuery(sql3);
 //            String sql4 = "select *from yellowslip where accept = '" + "accept";
