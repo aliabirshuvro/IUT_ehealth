@@ -102,7 +102,7 @@ public class doctornoti extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            cn=DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12353692","sql12353692","NruRn74dY6");
+            cn=DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12357858","sql12357858","HtqFYX9t4G");
             String sql; 
             sql = "delete from emergencyresponse";
             PreparedStatement st1=cn.prepareStatement(sql);

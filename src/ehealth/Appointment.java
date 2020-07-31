@@ -23,11 +23,10 @@ public class Appointment extends javax.swing.JFrame {
     public Connection cn;
     user u;
     String y1,m1,d1;
-    
     public Appointment(user _u) {
           try{
             Class.forName("com.mysql.jdbc.Driver");
-            cn=DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12353692","sql12353692","NruRn74dY6");
+            cn=DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12357858","sql12357858","HtqFYX9t4G");
             st=cn.createStatement();
             //JOptionPane.showMessageDialog(null, "Connected");
         }catch (Exception e){
@@ -289,14 +288,8 @@ public class Appointment extends javax.swing.JFrame {
                 if(Integer.parseInt(d)>30 || (Integer.parseInt(d)>28 && Integer.parseInt(m)==2))
                     JOptionPane.showMessageDialog(null, "Invalid Date Input.");
                 else{
-                    sql = "insert into appointment values (?,?,?,?,?,?)";
+                    sql = "CALL make_appointment('"+u.id+"','"+time.getSelectedItem().toString()+"','"+problem.getText()+"','"+day.getSelectedItem().toString()+"','"+month.getSelectedItem().toString()+"','"+y1+"')";
                     PreparedStatement pst = cn.prepareStatement(sql);
-                    pst.setString(1, u.id);
-                    pst.setString(2, time.getSelectedItem().toString());
-                    pst.setString(3, problem.getText());
-                    pst.setString(4, day.getSelectedItem().toString());
-                    pst.setString(5, month.getSelectedItem().toString());
-                    pst.setString(6, y1);
                     pst.execute();
                     JOptionPane.showMessageDialog(null, "Your Appointment has been made.");
                 }
@@ -305,7 +298,7 @@ public class Appointment extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "You have entered a date in the past.");
             }
             else{
-                sql = "insert into appointment values (?,?,?,?,?,?)";
+                /*sql = "insert into appointment values (?,?,?,?,?,?)";
                 PreparedStatement pst = cn.prepareStatement(sql);
                 pst.setString(1, u.id);
                 pst.setString(2, time.getSelectedItem().toString());
@@ -313,6 +306,9 @@ public class Appointment extends javax.swing.JFrame {
                 pst.setString(4, day.getSelectedItem().toString());
                 pst.setString(5, month.getSelectedItem().toString());
                 pst.setString(6, y1);
+                pst.execute();*/
+                sql = "CALL make_appointment('"+u.id+"','"+time.getSelectedItem().toString()+"','"+problem.getText()+"','"+day.getSelectedItem().toString()+"','"+month.getSelectedItem().toString()+"','"+y1+"')";
+                PreparedStatement pst = cn.prepareStatement(sql);
                 pst.execute();
                 JOptionPane.showMessageDialog(null, "Your Appointment has been made.");
             }

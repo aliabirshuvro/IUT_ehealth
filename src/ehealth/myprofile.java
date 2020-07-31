@@ -33,7 +33,7 @@ public class myprofile extends javax.swing.JFrame {
             d1=df1.format(dt);
         try{
             if(u.dept.equals("student")){
-                cn=DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12353692","sql12353692","NruRn74dY6");
+                cn=DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12357858","sql12357858","HtqFYX9t4G");
                 st=cn.createStatement();
                 u=_u;
                 String sql;
@@ -60,7 +60,7 @@ public class myprofile extends javax.swing.JFrame {
 //                name.setText(name1);
             }
             else if(u.dept.equals("doctor")){
-                cn=DriverManager.getConnection("jdbc:mysql://localhost:3306/ehealth?zeroDateTimeBehavior=convertToNull","root","");
+                cn=DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12357858","sql12357858","HtqFYX9t4G");
                 st=cn.createStatement();
                 u=_u;
                 String sql;
@@ -85,7 +85,7 @@ public class myprofile extends javax.swing.JFrame {
                 image1 = new ImageIcon(image);
             }
             else{
-                cn=DriverManager.getConnection("jdbc:mysql://localhost:3306/ehealth?zeroDateTimeBehavior=convertToNull","root","");
+                cn=DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12357858","sql12357858","HtqFYX9t4G");
                 st=cn.createStatement();
                 u=_u;
                 String sql;

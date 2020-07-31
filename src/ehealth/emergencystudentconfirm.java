@@ -107,7 +107,7 @@ public class emergencystudentconfirm extends javax.swing.JFrame {
         
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            cn=DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12353692","sql12353692","NruRn74dY6");
+            cn=DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12357858","sql12357858","HtqFYX9t4G");
             st=cn.createStatement();
             String sql = "insert into emergencyresponse values (?)";
             PreparedStatement pst = cn.prepareStatement(sql);
